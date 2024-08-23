@@ -1,0 +1,160 @@
+body {
+    width: auto;
+    height: 1628px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div.area_1 {
+    width: auto;
+    height: 678px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image:url('76_Sem_Titulo_20240728125828.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Object_Image {
+    width: 390px;
+    height: 390px;
+    border-radius: 44px;
+    background-image: url(imagem\ ebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Object {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.Object_Text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 39px;
+    color: white;
+    width: 700px;
+}
+.Object_Title{
+    display: flex;
+    font-size: 35px;
+}
+.Object_information{
+    font-size: 25px;
+    word-wrap: break-word;
+    margin-top: -25px;
+}
+
+.botao{
+    background-color: rgba(207, 11, 187, 1);
+    width: 386px;
+    height: 80px;
+    align-self: center;
+    text-align: center;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+a.botao_link{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+div.Area_2{
+    height: 364px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+div.Area_3 {
+    height: 664px;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    background-image:url('76_Sem_Titulo_20240728125828.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
+
+h1{
+    color: white;
+}
+
+div.foto_pessoa{
+    height:274px;
+    width: 269px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 3px;
+}
+
+.Nome_Pessoa{
+    font-size: 45px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.Informacao_pessoa{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.texto_pessoa{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+div.pessoa{
+    display: flex;
+    flex-direction: row;
+}
+
+.Titulo_Produtos{
+    font-size: 50px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Object_Group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.Object_Sub_Group{
+    display: flex;
+    flex-direction: row;
+}
+
+.Object_Sub_Group_2{
+    display: flex;
+    flex-direction: row
+}
+
+.Object_1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.Titulo_Produtos{
+    color: white;
+}
